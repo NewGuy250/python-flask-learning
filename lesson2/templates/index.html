@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn Flask 2</title>
+  </head>
+  <body>
+    <p>{{ content }}</p>
+    <h1>{{ r }}</h1>
+    {% for x in range(10) %} {% if x % 2 == 0 %}
+    <p>Oof {{ x }}</p>
+    {% endif %} {% endfor %} {% for name in names %}
+    <p>{{ name }}</p>
+    {% endfor %}
+  </body>
+</html>
